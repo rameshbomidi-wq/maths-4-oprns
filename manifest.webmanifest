@@ -1,14 +1,21 @@
 {
+ "id": "./",
  "name": "గణిత సాధన",
  "short_name": "గణిత సాధన",
  "description": "కూడికలు, తీసివేత, గుణకారం, భాగహారం – అడుగు అడుగుగా సాధన",
  "lang": "te",
+ "dir": "ltr",
  "start_url": "./",
  "scope": "./",
  "display": "standalone",
  "orientation": "any",
  "background_color": "#eceff8",
  "theme_color": "#2b3a9e",
+ "categories": [
+  "education",
+  "kids"
+ ],
+ "prefer_related_applications": false,
  "icons": [
   {
    "src": "icons/icon-192.png",
@@ -25,6 +32,29 @@
    "sizes": "512x512",
    "type": "image/png",
    "purpose": "maskable"
+  }
+ ],
+ "screenshots": [
+  {
+   "src": "screenshots/phone-1.png",
+   "sizes": "1080x1920",
+   "type": "image/png",
+   "form_factor": "narrow",
+   "label": "గుణకారం డెమో"
+  },
+  {
+   "src": "screenshots/phone-2.png",
+   "sizes": "1080x1920",
+   "type": "image/png",
+   "form_factor": "narrow",
+   "label": "కూడికల సాధన"
+  },
+  {
+   "src": "screenshots/wide-1.png",
+   "sizes": "1920x1080",
+   "type": "image/png",
+   "form_factor": "wide",
+   "label": "గుణకారం డెమో"
   }
  ]
 }
